@@ -8,20 +8,15 @@ const app = express();
 app.use(express.json());
 dotenv.config();
 
-const users = [
-  {
-    name: 'Jaspreet',
-    password: '$2b$10$JE880ztSEmdfXhbvoDX1A.r5iUgzO/KTYDpbnYGU7mO7e.RYA8uDy'
-  }
-];
+const users = [];
 
 const posts = [
   {
-    username: 'Jaspreet',
+    username: 'User1',
     title: 'First post'
   },
   {
-    username: 'Harpreet',
+    username: 'User2',
     title: 'Second post'
   }
 ]
